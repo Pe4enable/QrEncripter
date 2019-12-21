@@ -1,5 +1,5 @@
 FROM node:carbon
-WORKDIR /usr/src/cybaca
+WORKDIR /usr/src/qrEncripter
 
 COPY package*.json ./
 RUN npm install
