@@ -1,4 +1,7 @@
-# Cybaca frontend
+# QrEncripter (and Decripter)
+
+Small util to store information encripted in QrCode (and decripte information from QrCode)
+
 ### Run :
 Install all dependencies 
 
@@ -12,11 +15,11 @@ Run app
 
 Build container:
 
-    docker build --rm -t cybaca:latest .
+    docker build --rm -t qrencripter:latest .
 
 Run container
 
-    docker run --rm  -p 3000:3000 --name cybaca cybaca:latest
+    docker run --rm  -p 3000:3000 --name qrencripter qrencripter:latest
 
 For run as demon add
 
@@ -24,4 +27,4 @@ For run as demon add
 
 Read logs from container
 
-    docker logs cybaca
+    docker logs qrencripter
